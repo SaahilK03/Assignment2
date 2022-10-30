@@ -1,0 +1,26 @@
+<%- include partials/header %>
+<%- include partials/main_nav %>
+
+<!--main content-->
+<div>
+    <% if (title == "Home") { %>
+        <%- include partials/Home.ejs %>
+    <% } %>
+
+    <% if (title == "About") { %>
+        <%- include partials/About.ejs %>
+    <% } %>
+
+    <% if (title == "Projects") { %>
+        <%- include partials/Projects.ejs %>
+    <% } %>
+    
+    <% if (title == "Contact") { %>
+        <%- include partials/Contact.ejs %>
+    <% } %>
+
+<%- include partials/bottom_nav %>
+
+
+    </body>
+</html>

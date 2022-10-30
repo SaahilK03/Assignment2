@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+main {
+    min-height: calc(960px - 210px - 0px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#leftcolumn {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rightcolumn {
+    float: right;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    width: 240px;
+}
+
+
+#pagewidth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+#images {
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#Emailbox {
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+input[type=email] {
+    background-color: white;
+}
+
+#Namebox {
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text] {
+    background-color: white;
+}
+
+#Messagebox {
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Submit {
+    padding-bottom: 50px;
+}
+
+input[type=Submit] {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form {
+    float: left;
+    border: 15px solid grey;
+    width: 300px;
+    margin-left: 30px;
+}

@@ -1,0 +1,58 @@
+<!--nav bar from bootstrap-->
+        <nav class="navbar justify-content: space-between navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid ">
+  <!--logo button-->
+    <a class="navbar-brand" href="/home"><img src=images/bitmoji.jpg alt="logo" height="50px" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+        <!--home page button-->
+        <li class="nav-item justify-content-center">
+        <% if (title == "Home") { %>
+            <a class="nav-link active" aria-current="page" href="/home">
+        <% } 
+        else { %>
+            <a class="nav-link" aria-current="page" href="/home">
+        <% } %> 
+          <i class="fa-solid fa-lg fa-house"></i> Home</a>
+        </li>
+
+        <!--about page button-->
+        <li class="nav-item">
+        <% if (title == "About") { %>
+          <a class="nav-link active" href="/about">
+        <% } 
+        else { %>
+            <a class="nav-link" href="/about">
+        <% } %> 
+            <i class="fa-regular fa-lg fa-address-card"></i> About</a>
+        </li>
+
+        <!--Projects page button-->
+        <li class="nav-item">
+        <% if (title == "Projects") { %>
+          <a class="nav-link active" href="/projects">
+        <% } 
+        else { %>
+            <a class="nav-link" href="/projects">
+        <% } %>
+            <i class="fa-solid fa-lg fa-diagram-project"></i> Projects</a>
+        </li>
+        
+        <!--Contact page button-->
+        <li class="nav-item">
+        <% if (title == "Contact") { %>
+          <a class="nav-link active" href="/contact">
+        <% } 
+        else { %>
+            <a class="nav-link" href="/contact">
+        <% } %>
+            <i class="fa-solid fa-lg fa-address-book"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

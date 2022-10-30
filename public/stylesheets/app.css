@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+}
+
+main {
+    min-height: calc(1440px - 210px - 0px);
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/back-school-background-with-school-supplies-copy-space_23-2148959019.jpg?w=2000);
+    background-repeat: no-repeat;background-position: center;
+}
+
+#leftcolumn {
+    float: left;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+    padding-left: 150px;
+    list-style: none;
+    width: 700px;
+    font-weight: bold;
+}
+
+#rightcolumn {
+    float: right;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 75px;
+    width: 700px;
+    font-weight: bold;
+}
+
+#pagewidth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-bottom: 0px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#images {
+    justify-content: space-between;
+}
+
+#homepage {
+    padding-top: 200px;
+}
+
+#Emailbox {
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+input[type=email] {
+    background-color: white;
+}
+
+#Namebox {
+    padding: 20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text] {
+    background-color: white;
+}
+
+#Messagebox {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#Submit {
+    padding-bottom: 50px;
+}
+
+input[type=Submit] {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form {
+    border: 15px solid grey;
+    width: 580px;
+    margin-left: 490px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
